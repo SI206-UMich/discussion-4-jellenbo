@@ -48,12 +48,13 @@ class Rectangle():
         if self.verify_input() == False:
             return "Invalid input"
         else:
+            print("hello")
             return self.width * self.height
 
 
 
     # Create the "perimeter" method
-    #
+    #test commit
     # It first verifies inputs and return "Invalid input" if they are invalid.
     # Otherwise, it returns the perimeter of the rectangle.
 
